@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitória Cristine — Dev Jr</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">Vitória Melo</a>
+      <ul id="nav-links">
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Formação</a></li>
+        <li><a href="#experience" class="nav-link">Experiência</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <a href="#about" class="mobile-link">Sobre</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#education" class="mobile-link">Formação</a>
+      <a href="#experience" class="mobile-link">Experiência</a>
+      <a href="#contact" class="mobile-link">Contato</a>
+    </div>
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+
+    <section class="hero">
+      <div class="hero-badge">
+        <i class="fa-solid fa-circle-dot fa-beat"></i>
+        Disponível para estágio &amp; oportunidades
+      </div>
+      <h1>Vitória<br /><span>Cristine.</span></h1>
+      <p class="hero-sub">
+        Técnica em Informática,.<br />
+        Apaixonada por tecnologia, design e resolver problemas reais com código.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i>
+          Entre em contato
+        </a>
+        <a href="#skills" class="btn btn-secondary">
+          <i class="fa-solid fa-code"></i>
+          Ver habilidades
+        </a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-label">Sobre mim</div>
+          <h2 class="section-title">Motivada,<br />Dedicada e Curiosa.</h2>
+          <p class="section-sub">
+            Procuro oportunidades para colocar minhas habilidades em prática,
+            crescer profissionalmente e contribuir de verdade com a equipe.
+          </p>
+        </div>
+
+        <div class="about-grid reveal">
+          <div class="about-card">
+            <div class="card-icon card-icon--yellow">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Aprendizado contínuo</h3>
+            <p>
+              Formada como Técnica em Informática pelo IFSULDEMINAS, sempre buscando
+              novos conhecimentos.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon card-icon--blue">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3>Comunicação</h3>
+            <p>
+              Facilidade em me expressar e trabalhar em equipe, habilidade
+              desenvolvida na prática.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon card-icon--green">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h3>Inglês Intermediário</h3>
+            <p>
+              Capacidade de ler documentação técnica e se comunicar em inglês
+              para o dia a dia do desenvolvimento.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon card-icon--purple">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3>Design Gráfico</h3>
+            <p>
+              Noções de design pela Fundação Bradesco — olhar cuidadoso para
+              interfaces e experiências visuais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-label">Habilidades técnicas</div>
+          <h2 class="section-title">Código que<br />faz sentido.</h2>
+          <p class="section-sub">
+            Fundamentos sólidos em tecnologias web modernas, com foco em boas
+            práticas desde o início.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon skill-icon--html">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>
+              Estruturação semântica com foco em acessibilidade e BEM convention
+              para código organizado.
+            </p>
+            <div class="skill-level">
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon skill-icon--css">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              Estilização moderna com flexbox, grid, animações e metodologia BEM
+              para manutenibilidade.
+            </p>
+            <div class="skill-level">
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon skill-icon--js">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Conhecimentos básicos da linguagem que potencializa a web —
+              lógica, DOM e interatividade.
+            </p>
+            <div class="skill-level">
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon skill-icon--react">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h3>React.js</h3>
+            <p>
+              Introdução ao desenvolvimento de interfaces modernas com
+              componentes e estado.
+            </p>
+            <div class="skill-level">
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon skill-icon--mobile">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h3>React Native</h3>
+            <p>
+              Primeiros passos no desenvolvimento mobile multiplataforma com
+              React Native.
+            </p>
+            <div class="skill-level">
+              <div class="dot filled"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon skill-icon--design">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h3>Design Gráfico</h3>
+            <p>
+              Fundamentos de design visual — composição, tipografia e princípios
+              de UI.
+            </p>
+            <div class="skill-level">
+              <div class="dot filled"></div>
+              <div class="dot filled"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-label">Formação</div>
+          <h2 class="section-title">Construindo<br />bases sólidas.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="t-content">
+              <div class="t-year">2023 — 2025</div>
+              <h3>Técnico em Informática</h3>
+              <p>
+                Instituto Federal de Educação, Ciência e Tecnologia do Sul de
+                Minas
+              </p>
+              <span class="t-detail">
+                <i class="fa-solid fa-location-dot"></i>
+                Campus Poços de Caldas
+              </span>
+            </div>
+            <div class="t-line">
+              <div class="t-dot"></div>
+              <div class="t-bar"></div>
+            </div>
+            <div class="t-empty"></div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="t-empty"></div>
+            <div class="t-line">
+              <div class="t-dot"></div>
+              <div class="t-bar"></div>
+            </div>
+            <div class="t-content">
+              <div class="t-year">2023 — 2025</div>
+              <h3>Ensino Médio</h3>
+              <p>
+                Instituto Federal de Educação, Ciência e Tecnologia do Sul de
+                Minas
+              </p>
+              <span class="t-detail">
+                <i class="fa-solid fa-location-dot"></i>
+                Campus Poços de Caldas
+              </span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="t-content">
+              <div class="t-year">Em andamento</div>
+              <h3>Inglês Intermediário</h3>
+              <p>
+                Instituto Federal de Educação, Ciência e Tecnologia de Minas
+                Gerais
+              </p>
+              <span class="t-detail">
+                <i class="fa-solid fa-building-columns"></i>
+                IFMG
+              </span>
+            </div>
+            <div class="t-line">
+              <div class="t-dot"></div>
+              <div class="t-bar"></div>
+            </div>
+            <div class="t-empty"></div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="t-empty"></div>
+            <div class="t-line">
+              <div class="t-dot"></div>
+              <div class="t-bar"></div>
+            </div>
+            <div class="t-content">
+              <div class="t-year">Concluído</div>
+              <h3>Fundamentos do Design Gráfico</h3>
+              <p>Fundação Bradesco</p>
+              <span class="t-detail">
+                <i class="fa-solid fa-certificate"></i>
+                Certificado obtido
+              </span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="t-content">
+              <div class="t-year">Concluído</div>
+              <h3>Introdução ao Excel</h3>
+              <p>Escola Virtual Gov</p>
+              <span class="t-detail">
+                <i class="fa-solid fa-certificate"></i>
+                Certificado obtido
+              </span>
+            </div>
+            <div class="t-line">
+              <div class="t-dot"></div>
+              <div class="t-bar"></div>
+            </div>
+            <div class="t-empty"></div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="t-empty"></div>
+            <div class="t-line">
+              <div class="t-dot t-dot--loading"></div>
+            </div>
+            <div class="t-content">
+              <div class="t-year t-year--loading">
+                <span class="loading-dots">
+                  <span></span><span></span><span></span>
+                </span>
+                em andamento
+              </div>
+              <h3>
+                 — Ciência da Computação
+                <i class="fa-solid fa-star-of-life fa-spin loading-spin"></i>
+              </h3>
+              <p>
+                Estudando forte para conquistar uma bolsa de estudos e cursar
+                Ciência da Computação. Cada linha de código é um passo a mais
+                pra chegar lá.
+              </p>
+              <div class="loading-bar-wrap">
+                <div class="loading-bar-track">
+                  <div class="loading-bar-fill"></div>
+                </div>
+                <span class="loading-bar-label">dedicação máxima ✨</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-label">Experiência</div>
+          <h2 class="section-title">Trabalho real,<br />aprendizado real.</h2>
+        </div>
+
+        <div class="exp-card reveal">
+          <div class="exp-logo">
+            <i class="fa-solid fa-store"></i>
+          </div>
+          <div class="exp-info">
+            <h3>Vendedora</h3>
+            <p class="company">
+              ITI Comércio e Varejo de Cosméticos LTDA — Perfumaria Emy
+            </p>
+            <span class="period">
+              <i class="fa-solid fa-circle"></i>
+              fev/2026 — Atual
+            </span>
+            <ul>
+              <li>
+                <i class="fa-solid fa-user-check"></i>
+                Atendimento ao cliente com foco em uma boa experiência e satisfação.
+              </li>
+              <li>
+                <i class="fa-solid fa-boxes-stacked"></i>
+                Organização e gestão de produtos no ambiente de trabalho.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-label">Contato</div>
+          <h2 class="section-title">Vamos conversar.</h2>
+          <p class="section-sub">
+            Estou em busca de oportunidades de estágio ou emprego júnior.
+          </p>
+        </div>
+
+        <div class="contact-links reveal">
+          <a
+            href="mailto:vitoriacristinemarianoelo3@gmail.com"
+            class="contact-chip"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            vitoriacristinemarianoelo3@gmail.com
+          </a>
+          <a href="tel:+5535992678869" class="contact-chip">
+            <i class="fa-solid fa-phone"></i>
+            (35) 99267-8869
+          </a>
+          <a href="#" class="contact-chip">
+            <i class="fa-solid fa-location-dot"></i>
+            Poços de Caldas, MG
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Vitória Cristine Mariano Melo</span>
+      <i class="fa-solid fa-heart"></i>
+      <span>Feito com HTML, CSS e muita vontade</span>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
