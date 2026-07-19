@@ -23,7 +23,7 @@ Atualmente estou em busca da minha primeira oportunidade como estagiária ou des
 
 💼 **LinkedIn:** [Clique aqui!](https://www.linkedin.com/in/vit%C3%B3ria-mariano-melo-ba88843a8/)
 
-🐙 **GitHub:** [Clique aqui!](https://github.com/vickychriss)
+
 
 
 
